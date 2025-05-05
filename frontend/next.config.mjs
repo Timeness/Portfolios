@@ -6,4 +6,4 @@ const nextConfig = {
   telemetry: false,
 };
 
-export default = nextConfig;
+export default nextConfig;
