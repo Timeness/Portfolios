@@ -11,10 +11,10 @@ export default function HeroSection() {
         transition={{ duration: 1 }}
         className="text-center"
       >
-        <h1 className="text-5xl md:text-7xl font-poppins font-bold">
+        <h1 className="text-5xl md:text-7xl font-viga font-bold">
           Hey, I&apos;m Soumo!
         </h1>
-        <p className="text-xl md:text-2xl font-montserrat mt-4">
+        <p className="text-xl md:text-2xl font-viga mt-4">
           Developer | Designer | Anime Lover | Entrepreneur
         </p>
         <Button
