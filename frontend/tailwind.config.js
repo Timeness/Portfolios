@@ -1,4 +1,4 @@
-// @type {import('tailwindcss').Config}
+/** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
     './src/**/*.{js,ts,jsx,tsx}',
@@ -11,8 +11,6 @@ module.exports = {
         'soumo-purple': '#A586FF',
       },
       fontFamily: {
-        poppins: ['Poppins', 'sans-serif'],
-        montserrat: ['Montserrat', 'sans-serif'],
         viga: ['Viga', 'sans-serif'],
       },
     },
