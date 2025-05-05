@@ -21,7 +21,7 @@ export default function ProjectsSection() {
   return (
     <section id="projects" className="py-20">
       <div className="max-w-6xl mx-auto px-4">
-        <h2 className="text-4xl font-poppins font-bold text-center mb-12">My Projects</h2>
+        <h2 className="text-4xl font-viga font-bold text-center mb-12">My Projects</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {projects.map((project, index) => (
             <motion.div
@@ -37,7 +37,7 @@ export default function ProjectsSection() {
                     alt={project.title}
                     className="w-full h-48 object-cover rounded-md"
                   />
-                  <h3 className="text-xl font-montserrat font-semibold mt-4">{project.title}</h3>
+                  <h3 className="text-xl font-viga font-semibold mt-4">{project.title}</h3>
                   <p className="mt-2">{project.description}</p>
                   <a
                     href={project.link}
