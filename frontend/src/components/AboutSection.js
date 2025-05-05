@@ -1,5 +1,5 @@
 'use client';
-import { motion } from 'framer';
+import { motion } from 'framer-motion';
 import { Card, CardBody } from '@nextui-org/react';
 
 export default function AboutSection() {
