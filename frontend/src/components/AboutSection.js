@@ -1,5 +1,6 @@
 'use client';
-import { motion } from 'framer  import { Card, CardBody } from '@nextui-org/react';
+import { motion } from 'framer';
+import { Card, CardBody } from '@nextui-org/react';
 
 export default function AboutSection() {
   const skills = [
