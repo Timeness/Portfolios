@@ -21,7 +21,7 @@ export default function ContactSection() {
   return (
     <section id="contact" className="py-20 bg-soumo-blue text-white">
       <div className="max-w-6xl mx-auto px-4">
-        <h2 className="text-4xl font Poppins font-bold text-center mb-12">Get in Touch</h2>
+        <h2 className="text-4xl font-viga font-bold text-center mb-12">Get in Touch</h2>
         <form onSubmit={handleSubmit(onSubmit)} className="max-w-lg mx-auto space-y-6">
           <Input
             {...register('name', { required: true })}
