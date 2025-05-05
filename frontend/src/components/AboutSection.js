@@ -13,7 +13,7 @@ export default function AboutSection() {
   return (
     <section id="about" className="py-20 bg-gray-200 dark:bg-gray-800">
       <div className="max-w-6xl mx-auto px-4">
-        <h2 className="text-4xl font-poppins font-bold text-center mb-12">About Me</h2>
+        <h2 className="text-4xl font-viga font-bold text-center mb-12">About Me</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {skills.map((skill, index) => (
             <motion.div
@@ -24,7 +24,7 @@ export default function AboutSection() {
             >
               <Card>
                 <CardBody>
-                  <h3 className="text-xl font-montserrat font-semibold">{skill.title}</h3>
+                  <h3 className="text-xl font-viga font-semibold">{skill.title}</h3>
                   <p className="mt-2">{skill.description}</p>
                 </CardBody>
               </Card>
